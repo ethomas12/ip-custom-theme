@@ -1,0 +1,168 @@
+/*
+Theme Name: Infinite Clean Grid Child
+Author URI: https://infinite-possibilities.us
+Template: clean-grid
+Version: 1.0.2
+Author: Infinite Possibilties
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: clean-grid
+Tags: two-columns, right-sidebar, grid-layout, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, blog, photography, portfolio
+*/
+
+
+
+.jumbotron, #portfolio, #aboutMe, #contact {
+	padding-top: 60px;
+}
+
+/*this formats the background image on the header*/
+.bg {
+	background-image: url("images/background.jpg");
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	opacity: 0.12;
+}
+
+/* This formats the Jumbotron*/
+.jumbotron {
+	text-shadow: black 0.3em 0.3em 0.3em;
+	background: transparent;
+}
+
+.jtron-h1 {
+	color: #e7be6a;
+}
+
+.jtron-h2, #folio {
+	color: #cb7832;
+}
+
+.jtron-h3 {
+color: #a4c161;
+}
+
+.jtron-h4, label {
+	color: #9776a9;
+}
+
+.jtron-h5 {
+	color: #337ab7;
+}
+
+.myImages {
+	width: 175px;
+	height: 200px;
+	padding: 1px;
+	border-radius: 5%;
+	border: groove 2px white;
+	margin: 25px 0;
+}
+
+#lilKitty, #linkedIn {
+	width: 50px;
+	height: 50px;
+	padding: 1px;
+	margin: 8px;
+}
+
+/********************************************
+* Form Styles from DDBC
+********************************************/
+
+/*primary page style*/
+.form-wrap {
+	background-color: #1d1b1c;
+	margin: 0 0 50px 0;
+	padding: 20px 0 0 0;
+}
+
+/*form*/
+form#sample-form {
+	color: #fff;
+}
+
+#sample-form .form-group {
+	border-bottom: 1px solid #312f30;
+	padding-bottom: 25px;
+}
+
+#sample-form .form-group:last-child {
+	border: none;
+	margin-top: 20px;
+}
+
+#sample-form label {
+	font-weight: 400;
+}
+
+#sample-form .control-label {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.4em;
+	font-weight: 300;
+	padding-bottom: 4px;
+	text-align: left !important;
+	color: #9776a9;
+}
+
+#sample-form .input-group-addon {
+	border-radius: 0 !important;
+	background: none;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+#sample-form .help-block {
+	color: #ddd;
+	font-size: 0.85em;
+	margin-top: 0;
+}
+
+/********************************************
+* Input Field Styles from DDBC
+********************************************/
+#sample-form .btn {
+	background: none;
+	border-color: #fff;
+	border-radius: 0;
+	box-shadow: none;
+	color: #fff;
+	text-shadow: none;
+	transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-ms-transition: all 250ms ease;
+	-o-transition: all 250ms ease;
+	-webkit-transition: all 250ms ease;
+}
+
+#sample-form .btn:hover,
+#sample-form .btn:focus {
+	background: #fff;
+	border-color: #ccc;
+	box-shadow: none;
+	color: #000;
+}
+
+#sample-form input.form-control,
+#sample-form textarea.form-control,
+#sample-form select.form-control {
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 0;
+	color: #fff;
+}
+
+#sample-form option {
+	color: #000;
+	background-color: #fff;
+	padding: 5px;
+}
+
+#sample-form .no-option {
+	background: #dddddd;
+}
+
+/* End of form styles*/
